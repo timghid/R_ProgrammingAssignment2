@@ -1,7 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Two functions makecachematrix and cacheSolve. These work together to
+##      store a matrix into global space and save that same matrix in its
+##      inverted form. If the same matrix is inverted twice, then the cached
+##      version of the matrix is returned skipping the inversion step.
+## 
 
-## CacheMatrix creates and contains the list of functions that will be 
+## makecachematrix creates and contains the list of functions that will be 
 ## available to an instance of CacheMatrix
 
 makecachematrix <- function(inputMatrix = matrix()) {
