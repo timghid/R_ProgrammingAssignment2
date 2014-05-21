@@ -7,7 +7,7 @@
 ## makecachematrix creates and contains the list of functions that will be 
 ## available to an instance of CacheMatrix
 
-makecachematrix <- function(inputMatrix = matrix()) {
+makeCacheMatrix <- function(inputMatrix = matrix()) {
 
 ## Pull in matrix and create global instance
         setGlobalInput<-function(tmpMatrix) {
